@@ -1,0 +1,100 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "webots://projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "webots://projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "webots://projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+
+WorldInfo {
+  basicTimeStep 64
+}
+Viewpoint {
+  orientation 0.26648983207449733 0.7199056916049644 -0.6408735948653871 1.0475830234457895
+  position -1.5731172225512131 1.6462057351100228 2.506237334848655
+  follow "TurtleBot3Burger"
+  followType "Pan and Tilt Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+CircleArena {
+  radius 3
+  wallHeight 0.4
+}
+WoodenBox {
+  translation 0.467367 -0.545426 0.15
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation 1.26618 1.07342 0.15
+  name "wooden box(1)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -0.15697 0.782967 0.15
+  name "wooden box(2)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -1.62271 1.08968 0.15
+  name "wooden box(3)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -1.09887 -0.301011 0.15
+  name "wooden box(4)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -2.71307 -0.22263 0.15
+  name "wooden box(7)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -0.744103 2.69736 0.15
+  name "wooden box(8)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation 2.30103 0.203241 0.15
+  name "wooden box(9)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation 0.005323 -1.57959 0.15
+  name "wooden box(5)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -1.0974 -1.8598 0.15
+  name "wooden box(6)"
+  size 0.3 0.3 0.3
+}
+TurtleBot3Burger {
+  hidden position_0_0 9.76267450069379
+  hidden position_0_1 9.614343501812872
+  hidden position_0_2 6.113782849779629
+  hidden position2_0_2 0.8429169997931526
+  hidden position3_0_2 -43.70625963204164
+  hidden linearVelocity_0 0.049414196520915527 0.00398261818257067 1.998627916975173e-08
+  hidden angularVelocity_0 -3.6058857809891407e-06 4.6197076265375084e-07 -0.07322289235177107
+  hidden position_1_0 151.79775999999993
+  hidden position_1_1 213.5961600000001
+  hidden rotation_2 -0.7908771870407474 0.43273080509390666 0.4327323946058276 1.8032893398401582
+  hidden translation_3 -2.375714217261321e-05 -0.009999999999999998 0.001478205898403671
+  hidden rotation_3 -0.9997418044745222 -0.01606739694942497 -0.01606745596837784 1.5710582288606871
+  hidden rotation_8 0 -1 0 4.374492113665384
+  hidden linearVelocity_8 0.043623402183385056 0.001360767667185916 2.830987707457002e-07
+  hidden angularVelocity_8 -0.040565165625209114 1.3023243125535664 -0.07398729958679012
+  hidden rotation_9 0.6370138612639227 -2.316351019624383e-06 -0.7708523467903969 3.1415922131697904
+  hidden linearVelocity_9 0.055333793274256346 0.0017304803419906877 -2.7990000104464384e-07
+  hidden angularVelocity_9 -0.053100146436751545 1.6962176292944373 -0.07429095583108845
+  hidden rotation_10 -0.0479907339535562 0.9756916411307259 0.21382869517964465 0.8772461462028662
+  hidden linearVelocity_10 0.04929300291218285 0.007453605638095222 4.7490570875870025e-08
+  hidden angularVelocity_10 -1.8634014089335476 12.323250727955953 8.601004712338325e-16
+  translation 0.3190011401381493 0.022950743820085787 -0.0004935249177820331
+  rotation 0.0036521164353644753 -0.31680027039137637 0.9484852401199997 0.029563734727603035
+  controller "localization_controller"
+}
